@@ -46,12 +46,12 @@ Owner : ${s.NOM_OWNER} \n       || Commandes : ${cm.length} \n        || Date : 
 
 
   
-╚═════ ▓▓ ࿇ ▓▓ ═════╝*/
+╚═════ 🌀 🤘🏻 🌀🌀🌀 ═════╝*/
 
 
 
  /* menuMsg+=`
-╔════ ▓▓ ࿇ ▓▓ ════╗ 
+╔════ 🌀🌀 🤘🏻 🌀🌀 ════╗ 
 
 ||      
 ||     Préfixe : ${s.prefixe}
@@ -62,7 +62,7 @@ Owner : ${s.NOM_OWNER} \n       || Commandes : ${cm.length} \n        || Date : 
 ||      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
 ||  Développeurs : Djalega++||Luffy
 || 
-╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
+╚════ 🤘🏻🌀 ࿇ 🤘🏻🌀 ════╝`;*/
 
 
   menuMsg+=`
@@ -75,7 +75,7 @@ Owner : ${s.NOM_OWNER} \n       || Commandes : ${cm.length} \n        || Date : 
 ║    Heure : ${temps}
 ║    Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}
 ║    Plateforme : ${os.platform()}
-║    Développeurs : Djalega++||Luffy
+║    Développeurs : 𝐋𝚯𝐔𝐊𝐒𝚯𝚴-𝐔𝚭𝐔𝚳𝚫𝐊𝚰
 ╚════--------------- \n\n`;
 
 
