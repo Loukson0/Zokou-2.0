@@ -149,10 +149,9 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '22559763447';
-            const dj2 = '22543343357';
-            const dj3 = "22564297888";
-            const luffy = '22891733300';
+            const dj = '22502331988';
+            const dj2 = '22545766075';
+            const dj3 = "22502986270";
             const dj4 = '‪99393228‬';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3,dj4, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
@@ -355,7 +354,7 @@ function mybotpic() {
                                         pack: 'Zoou-Md',
                                         author: conf.NOM_OWNER,
                                         type: StickerTypes.FULL,
-                                        categories: ['🤩', '🎉'],
+                                        categories: ['🤘🏻', '🍜'],
                                         id: '12345',
                                         quality: 50,
                                         background: '#000000'
@@ -452,7 +451,7 @@ function mybotpic() {
                 pack: 'Zoou-Md',
                 author: conf.NOM_OWNER,
                 type: StickerTypes.FULL,
-                categories: ['🤩', '🎉'],
+                categories: ['🤘🏻', '🍜'],
                 id: '12345',
                 quality: 50,
                 background: '#000000'
@@ -754,10 +753,10 @@ ${metadata.desc}`;
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Connexion en cours...");
+                console.log("🤘🏻 Connexion en cours...");
             }
             else if (connection === 'open') {
-                console.log("✅ connexion reussie! ☺️");
+                console.log("🌀 connexion reussie! 🌀");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
